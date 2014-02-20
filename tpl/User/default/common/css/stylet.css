@@ -1,0 +1,94 @@
+﻿@charset "utf-8";
+/* CSS Document */
+html{
+	margin:0px;
+	padding:0px;
+}
+body{
+	margin:0px auto;
+	padding:0px;
+	font-family:"微软雅黑";
+	font-size:14px;
+	background:#f6f6f6;
+	width:100%;
+	height:100%;
+}
+a{
+	text-decoration:none;
+	list-style:none;
+}
+img{
+	border:none;
+}
+ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	list-style-position:inside;
+}
+#herder{
+	width:auto;
+	height:53px;
+    border-bottom: 5px solid #67ad03;
+    box-shadow: 0 2px 3px #ccc;
+	background:#f3f3f3;
+	margin-bottom:30px;
+	background-repeat:repeat-x;
+}
+#top{
+	width:1210px;
+	height:55px;
+	margin:0px auto;
+	padding:0px;
+}
+#top img{
+	border:0px;
+	float:left;
+	margin:11px 40px 11px 10px;
+}
+#top a{
+	width:auto;
+	float:left;
+	color:#000000;
+	height:25px;
+	padding:14px 24px;
+	line-height:25px;
+	display:list-item;
+	font-size:16px;
+	background-repeat:no-repeat;
+	background-position:left;
+}
+#top a:hover{
+        background:url(../images/weimob-nav.png) no-repeat;color:#67ad03;
+        background-size:100px 53px;
+}
+#top a.a{
+	display:block;
+	width:135px;
+	height:30px;
+	color:#67ad03;
+	float:right;
+	margin:12px 15px 12px 0px;
+	text-align:center;
+	line-height:30px;
+	background:;
+	padding:0px;
+	border:1px solid ;
+}
+#top a.a1{
+	background:#999;
+	color:#333;
+	display:none;
+	width:135px;
+	height:30px;
+	float:right;
+	margin:12px 15px 12px 0px;
+	text-align:center;
+	line-height:30px;
+	padding:0px;
+	border:1px solid ;
+}
+#top a span{
+	color:#da3610;
+	font-weight:bold;
+}

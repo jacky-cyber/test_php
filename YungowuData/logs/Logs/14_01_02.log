@@ -1,0 +1,3466 @@
+[ 2014-01-02T23:11:48+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002229s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.003118s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.001347s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.044365s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002768s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.047222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027598s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.074895s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.076922s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.078723s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.080254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007372s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.082401s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002263s ]
+
+[ 2014-01-02T23:11:52+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=about
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003009s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006027s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000679s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019615s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.026485s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.027193s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.027875s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.028307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002746s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.029364s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002331s ]
+
+[ 2014-01-02T23:11:53+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006139s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000704s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023158s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.030190s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.030991s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031784s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.032231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002987s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.033383s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001186s ]
+
+[ 2014-01-02T23:11:55+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003777s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009793s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001818s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 137 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 164 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 168 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.011699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083521s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.095297s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.097425s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.099268s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.100804s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007398s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.102867s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002139s ]
+
+[ 2014-01-02T23:12:02+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=price
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006639s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000685s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044343s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.051824s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.053752s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.054714s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.055160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007164s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.059196s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002183s ]
+
+[ 2014-01-02T23:12:51+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.003081s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.002450s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.046156s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002238s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.048430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026042s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.074547s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.075846s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.076557s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.077008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003322s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.078000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001648s ]
+
+[ 2014-01-02T23:12:53+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007355s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001708s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032981s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.042209s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.043707s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.044502s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.044952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003620s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.045969s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001639s ]
+
+[ 2014-01-02T23:13:32+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=about
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002176s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010315s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003115s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.013527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025762s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.039363s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.041172s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.044965s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.046759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009313s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.048815s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002257s ]
+
+[ 2014-01-02T23:13:33+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.062587s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.003313s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.098142s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001603s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.099831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021238s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.121140s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.122379s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.123111s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.123607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003327s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.125785s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001889s ]
+
+[ 2014-01-02T23:13:34+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=about
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001704s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006447s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000721s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021006s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.028352s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.029783s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.030507s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.030941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003474s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031960s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001600s ]
+
+[ 2014-01-02T23:13:35+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008742s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000769s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021915s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031611s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.034326s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.035206s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.035668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004962s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.036748s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2014-01-02T23:13:58+08:00 ] 127.0.0.1 /index.php?m=Index&a=reg
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002350s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011526s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001714s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.013327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061841s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.075242s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.076968s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.078800s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.080269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007873s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.083257s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002244s ]
+
+[ 2014-01-02T23:14:21+08:00 ] 127.0.0.1 /index.php?m=Index&a=reg
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008477s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000719s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018466s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.027822s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.028501s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.029240s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.029678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002710s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.030663s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002508s ]
+
+[ 2014-01-02T23:15:16+08:00 ] 127.0.0.1 /index.php?m=Index&a=reg
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002209s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010243s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001704s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026601s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.038708s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.040550s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.042353s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.043832s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007138s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.045980s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002107s ]
+
+[ 2014-01-02T23:15:23+08:00 ] 127.0.0.1 /index.php?m=Index&a=reg
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007120s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003378s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020535s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031195s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.033554s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.034297s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.034738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004404s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.035733s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002286s ]
+
+[ 2014-01-02T23:15:29+08:00 ] 127.0.0.1 /index.php?m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007637s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000717s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021957s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.030485s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031856s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.032654s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.033106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004522s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.035742s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001888s ]
+
+[ 2014-01-02T23:17:48+08:00 ] 127.0.0.1 /index.php?m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002827s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009378s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001730s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.011194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030168s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.041458s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.043309s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.047989s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.049682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010090s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.051716s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002102s ]
+
+[ 2014-01-02T23:18:25+08:00 ] 127.0.0.1 /index.php?m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002233s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.012996s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002300s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.534063s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.549558s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.551520s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.553418s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.556000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008564s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.558262s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002169s ]
+
+[ 2014-01-02T23:19:09+08:00 ] 127.0.0.1 /index.php?m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002254s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010857s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001726s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030696s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.043469s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.045328s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.050244s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.052616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011259s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.054872s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002317s ]
+
+[ 2014-01-02T23:21:01+08:00 ] 127.0.0.1 /index.php?m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.015012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015193s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.089425s ]
+INFO: [ view_template ] --END-- [ RunTime:0.033386s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.123552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093210s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.216835s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.219753s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.227188s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.233098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019124s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.236111s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010737s ]
+
+[ 2014-01-02T23:21:12+08:00 ] 127.0.0.1 /index.php?m=Index&a=reg
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002798s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.012796s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001779s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.014661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076556s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.091293s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.093010s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.095682s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.097210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007863s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.099292s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002263s ]
+
+[ 2014-01-02T23:21:44+08:00 ] 127.0.0.1 /index.php?m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008791s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000704s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024411s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.034094s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.039517s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.040441s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.040922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007717s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.041983s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001175s ]
+
+[ 2014-01-02T23:22:19+08:00 ] 127.0.0.1 /index.php?m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002094s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009940s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002585s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031079s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.043770s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.045661s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.047449s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.048902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007602s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.051555s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002331s ]
+
+[ 2014-01-02T23:22:54+08:00 ] 127.0.0.1 /index.php?m=Users&a=checklogin
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002285s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.003610s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `username` = 'test' ) LIMIT 1   [ RunTime:0.001553s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.003260s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.001199s ]
+SQL: UPDATE `tp_users` SET `lasttime`=1388676174,`lastloginmonth`=1,`lastip`='127.0.0.1' WHERE ( `id` = 1 ) [ RunTime:0.089404s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.513346s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002689s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.516126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039111s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.555314s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.557181s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.558956s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.560463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007042s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.562525s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002270s ]
+
+[ 2014-01-02T23:22:56+08:00 ] 127.0.0.1 /index.php?g=User&m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001988s ]
+NOTIC: [2048] Declaration of IndexAction::insert() should be compatible with that of BaseAction::insert() F:\phpnow\htdocs\YunGoWu\Lib\Action\User\IndexAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.037182s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.003548s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001226s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.004038s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = null ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.002419s ]
+NOTIC: [8] Undefined index:  width F:\phpnow\htdocs\YunGoWu\Lib\Action\UserAction.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.003502s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.001145s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_wxuser` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.112519s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `uid` = 1 ) LIMIT 0,25   [ RunTime:0.000440s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.520206s ]
+INFO: [ view_template ] --END-- [ RunTime:0.017387s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.537718s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.176699s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.714480s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.715199s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.715891s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.716324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002740s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.717387s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2014-01-02T23:22:56+08:00 ] 127.0.0.1 /index.php?g=User&m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+NOTIC: [2048] Declaration of IndexAction::insert() should be compatible with that of BaseAction::insert() F:\phpnow\htdocs\YunGoWu\Lib\Action\User\IndexAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.003366s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.001065s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.003429s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.002216s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.004472s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = null ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.001468s ]
+NOTIC: [8] Undefined index:  width F:\phpnow\htdocs\YunGoWu\Lib\Action\UserAction.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.003653s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.001932s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_wxuser` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000249s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `uid` = 1 ) LIMIT 0,25   [ RunTime:0.000556s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.758612s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002079s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.760817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029961s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.790835s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.791484s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.792146s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.792572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002728s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.793746s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001127s ]
+
+[ 2014-01-02T23:22:59+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008445s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001712s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082207s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.092531s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.093415s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.094268s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.094789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003340s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.096024s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001154s ]
+
+[ 2014-01-02T23:27:37+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.024566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.073778s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.114056s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.002735s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.920728s ]
+INFO: [ view_template ] --END-- [ RunTime:0.013522s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.934491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.288342s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-1.222906s ]
+INFO: Run TokenBuild Behavior [ RunTime:-1.237314s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-1.250396s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-1.308858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.327477s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-1.550531s ]
+INFO: [ view_end ] --END-- [ RunTime:0.059314s ]
+
+[ 2014-01-02T23:27:39+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=about
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002154s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010679s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001826s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053446s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.066115s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.067978s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.069748s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.071195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007013s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.073264s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002259s ]
+
+[ 2014-01-02T23:27:41+08:00 ] 127.0.0.1 /index.php?g=User&m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+NOTIC: [2048] Declaration of IndexAction::insert() should be compatible with that of BaseAction::insert() F:\phpnow\htdocs\YunGoWu\Lib\Action\User\IndexAction.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.003181s ]
+SQL: SELECT * FROM `tp_user_group` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.001723s ]
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.042422s ]
+SQL: SELECT * FROM `tp_users` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `tp_wxuser` [ RunTime:0.005655s ]
+SQL: SELECT `wxname`,`weixin`,`wxid`,`headerpic` FROM `tp_wxuser` WHERE ( `token` = null ) AND ( `uid` = 1 ) LIMIT 1   [ RunTime:0.027255s ]
+NOTIC: [8] Undefined index:  width F:\phpnow\htdocs\YunGoWu\Lib\Action\UserAction.class.php 第 49 行.
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.003821s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.001044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_wxuser` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.055161s ]
+SQL: SELECT * FROM `tp_wxuser` WHERE ( `uid` = 1 ) LIMIT 0,25   [ RunTime:0.000445s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.395403s ]
+INFO: [ view_template ] --END-- [ RunTime:0.014777s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.410306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081467s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.491837s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.492519s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.493202s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.493641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002691s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.494711s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001127s ]
+
+[ 2014-01-02T23:27:44+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005828s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002717s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008679s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067976s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.076728s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.077622s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.078433s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.078909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003071s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.079963s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2014-01-02T23:27:46+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.037428s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000737s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.038251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142461s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.180787s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.181560s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.182327s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.182766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002893s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.183850s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2014-01-02T23:28:07+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002277s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.013850s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001797s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029411s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.045226s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.047085s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.048895s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.050414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007129s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.052529s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002146s ]
+
+[ 2014-01-02T23:28:23+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007322s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000680s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024034s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.032198s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.033509s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.035030s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.035546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004587s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.036933s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001774s ]
+
+[ 2014-01-02T23:28:26+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=hezuo
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006479s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000714s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045291s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.052649s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.053949s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.054722s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.055221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004419s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.057312s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001768s ]
+
+[ 2014-01-02T23:28:52+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=hezuo
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007415s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000762s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022747s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031083s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.032921s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.033667s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.034343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004197s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.035426s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001858s ]
+
+[ 2014-01-02T23:28:54+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=hezuo
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002314s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009478s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002392s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.011974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042033s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.054097s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.057672s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.060038s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.061933s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010186s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.064419s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002291s ]
+
+[ 2014-01-02T23:28:55+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=price
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006589s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000710s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062449s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.069915s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.071256s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.072132s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.072604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003601s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.073667s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003511s ]
+
+[ 2014-01-02T23:28:57+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=guide
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007760s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000687s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074609s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.083219s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.084446s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.085274s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.085709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003395s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.086768s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2014-01-02T23:28:59+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.018497s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.002326s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.052998s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002170s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.055260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033096s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.088442s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.089236s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.089922s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.090370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002793s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.091365s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001139s ]
+
+[ 2014-01-02T23:29:02+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.002778s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.001637s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.037381s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002397s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.039879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025479s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.065467s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.066217s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.066924s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.067521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002963s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.069844s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002567s ]
+
+[ 2014-01-02T23:30:23+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002172s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.012533s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001860s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 137 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 164 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 168 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.014484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053607s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.068198s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.070222s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.071935s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.073375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007312s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.075621s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002097s ]
+
+[ 2014-01-02T23:30:50+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002178s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010951s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001721s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 137 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 164 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 168 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045428s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.058284s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.060133s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.061991s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.063680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007293s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.065710s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002197s ]
+
+[ 2014-01-02T23:31:17+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007743s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.011839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032063s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.043978s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.045905s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.047729s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.049201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008205s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.052329s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002219s ]
+
+[ 2014-01-02T23:31:18+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=about
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006709s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000702s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022229s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.029812s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.034591s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.035436s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.035906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008593s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.038541s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001704s ]
+
+[ 2014-01-02T23:31:19+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002154s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.008132s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.001488s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.050082s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007173s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.057359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028450s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.085890s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.089012s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.091195s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.092817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009461s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.095516s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002252s ]
+
+[ 2014-01-02T23:31:20+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=hezuo
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005105s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007458s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000707s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020757s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.029082s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031572s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.033067s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.033573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005945s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.035169s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001263s ]
+
+[ 2014-01-02T23:31:21+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.002786s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.001198s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.034873s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000723s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.035706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024215s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.059970s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.060695s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.061369s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.061804s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002728s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.062828s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2014-01-02T23:31:23+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=hezuo
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006606s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000680s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021836s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.029353s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.030119s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.030799s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002867s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.032355s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2014-01-02T23:31:24+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001817s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.002892s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.001223s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.034329s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000726s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.035144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021458s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.056675s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.057354s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.058017s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.058455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002691s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.059502s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001076s ]
+
+[ 2014-01-02T23:31:26+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=price
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009053s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000707s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045564s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.055499s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.056885s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.057863s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.058431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004019s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.059676s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001096s ]
+
+[ 2014-01-02T23:31:32+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=guide
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007195s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000814s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028553s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.036746s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.037584s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.038325s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.038773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002931s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.039834s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001127s ]
+
+[ 2014-01-02T23:31:40+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006964s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003037s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033206s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.043393s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.044220s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.044985s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.045556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003202s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046742s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2014-01-02T23:31:43+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=guide
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002131s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011472s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001810s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.013372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036892s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.050341s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.052267s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.054784s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.056410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008306s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.058803s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003724s ]
+
+[ 2014-01-02T23:32:07+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007586s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000723s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025330s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.033800s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.034542s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.035244s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.035774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002866s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.036804s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2014-01-02T23:32:12+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007073s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000725s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023627s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031586s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.032327s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.034681s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.035229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005051s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.036842s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001343s ]
+
+[ 2014-01-02T23:32:15+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005631s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000706s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034351s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.040866s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.041789s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.042563s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.043010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003034s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.044044s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2014-01-02T23:32:38+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=about
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009297s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000892s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023460s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.033829s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.034686s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.035516s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.036033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003651s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.037636s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002296s ]
+
+[ 2014-01-02T23:32:39+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.005602s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.001138s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.036164s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000721s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.036971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020823s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.057868s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.062533s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.064353s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.065022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008201s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.066241s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001256s ]
+
+[ 2014-01-02T23:32:40+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=hezuo
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006388s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000735s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021192s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.028477s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.029178s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.029873s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.030311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002712s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.031320s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001186s ]
+
+[ 2014-01-02T23:32:40+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=price
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005912s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000688s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044652s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.051422s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.052723s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.053592s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.054028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003527s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.055103s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2014-01-02T23:32:41+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=guide
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007477s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000685s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025427s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.033752s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.034637s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.035375s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.035821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002965s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.036859s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2014-01-02T23:32:42+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.002948s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.001256s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.034821s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000747s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.035654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021285s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.057013s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.057709s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.058434s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.062192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006419s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.063574s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2014-01-02T23:34:11+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003469s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010151s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001723s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.011984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043365s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.055422s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.057421s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.059641s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.061105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008642s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.064205s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002156s ]
+
+[ 2014-01-02T23:34:13+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007985s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000726s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023985s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.032856s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.034237s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.035075s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.035688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003739s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.036732s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2014-01-02T23:34:29+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002218s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.021513s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002701s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.024306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035251s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.059631s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.061534s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.065798s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.067892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010172s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.069944s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002237s ]
+
+[ 2014-01-02T23:35:19+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008573s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000744s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025213s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.035217s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.036057s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.036751s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.037228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003411s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.038238s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2014-01-02T23:35:29+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002236s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.012121s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001777s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.013984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032684s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.046743s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.048677s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.050615s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.052082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007850s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.054908s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002418s ]
+
+[ 2014-01-02T23:35:32+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005672s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000682s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024726s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031263s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.032575s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.033301s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.033746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003361s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.034736s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001624s ]
+
+[ 2014-01-02T23:35:33+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003206s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010496s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001781s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040863s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.053345s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.055348s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.057348s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.058852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007481s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.060964s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002362s ]
+
+[ 2014-01-02T23:35:35+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010142s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000986s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.011230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025635s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.036938s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.037728s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.038411s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.038862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002783s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.039853s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2014-01-02T23:35:36+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006919s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000727s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023101s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.030909s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031623s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.032318s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.032756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002695s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.033742s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001156s ]
+
+[ 2014-01-02T23:35:37+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002211s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009783s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004436s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.014315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033346s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.047737s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.050205s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.051975s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.053422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007745s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.055621s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002843s ]
+
+[ 2014-01-02T23:35:38+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006091s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000712s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024534s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031968s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.032826s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.033575s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.034007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003014s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.035143s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001259s ]
+
+[ 2014-01-02T23:35:39+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006141s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001749s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025662s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.033726s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.035112s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.035948s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.036391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003516s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.037379s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002978s ]
+
+[ 2014-01-02T23:36:31+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007479s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000670s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024521s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.032928s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.033738s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.034442s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.035877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004009s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.037075s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2014-01-02T23:36:34+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007146s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000735s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025510s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.033568s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.034519s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.035311s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.035759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004569s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.038275s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2014-01-02T23:36:41+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007143s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000778s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029368s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.037450s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.038599s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.039398s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.039918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003370s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.040986s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001157s ]
+
+[ 2014-01-02T23:36:51+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=about
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006651s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000915s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023679s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.031461s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.032264s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.033050s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.033578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003049s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.034589s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2014-01-02T23:36:51+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002124s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.002918s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.001302s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.053364s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002811s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.056271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026724s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.083067s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.086715s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.088427s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.089908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008743s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.091944s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002543s ]
+
+[ 2014-01-02T23:36:52+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=hezuo
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008431s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000727s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028145s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.037468s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.038288s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.038985s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.039942s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003430s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.041034s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001188s ]
+
+[ 2014-01-02T23:36:54+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002352s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006869s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000698s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025535s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.033267s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.034118s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.034857s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.035329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002927s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.036329s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2014-01-02T23:36:55+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=price
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006553s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000684s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045607s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.053010s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.054240s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.055269s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.055843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003837s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.057007s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2014-01-02T23:36:56+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=guide
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002060s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007113s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000738s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029029s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.037051s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.037894s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.038669s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.039105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002953s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.040139s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2014-01-02T23:36:57+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.003110s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.001172s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.034762s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001884s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.036747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021100s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.057919s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.058646s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.059323s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.059766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002700s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.060866s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001230s ]
+
+[ 2014-01-02T23:36:58+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=about
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002794s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006576s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000756s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022094s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.029596s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.030554s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031365s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.031922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003268s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.033010s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002940s ]
+
+[ 2014-01-02T23:36:59+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006765s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000766s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025045s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.032739s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.033482s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.034243s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.034683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003118s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.035995s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001138s ]
+
+[ 2014-01-02T23:37:00+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002115s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010515s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001669s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031017s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.043361s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.048836s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.050718s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.052279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011847s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.055347s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002062s ]
+
+[ 2014-01-02T23:37:17+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.002927s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.001848s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.039006s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002571s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.041667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024476s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.066311s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.067688s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.068368s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.068835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005120s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.071474s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2014-01-02T23:38:05+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.002825s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.001140s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.036386s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003227s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.039708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022662s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.062447s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.063718s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.064421s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.064855s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006160s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.068755s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001993s ]
+
+[ 2014-01-02T23:38:08+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003221s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.002886s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.002490s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.034612s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000737s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.035430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020444s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.055947s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.056699s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.057607s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.058154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003083s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.059166s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2014-01-02T23:38:44+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.003326s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.001271s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.036021s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002440s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.038561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021832s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.060462s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.064038s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.064771s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.065217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007202s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.067799s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001577s ]
+
+[ 2014-01-02T23:38:51+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003051s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.002848s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.004831s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.045493s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002757s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.048348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027533s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.075944s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.077766s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.079522s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.080983s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006921s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.083000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002417s ]
+
+[ 2014-01-02T23:38:53+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=price
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007137s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001237s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044905s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.053444s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.056111s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.057099s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.058013s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007610s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.061236s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005638s ]
+
+[ 2014-01-02T23:38:54+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.002810s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.001196s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.037106s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002124s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.040035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024179s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.063570s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.064832s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.065505s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.065963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004755s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.068456s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003725s ]
+
+[ 2014-01-02T23:39:15+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002297s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.003140s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.002917s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.042042s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002186s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.044351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031951s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.076377s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.080298s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.082274s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.084942s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011538s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.088049s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003583s ]
+
+[ 2014-01-02T23:40:33+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002169s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.002894s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.002660s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.044395s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002749s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.047244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030717s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.078031s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.079795s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.081560s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.083045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006960s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.085129s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003827s ]
+
+[ 2014-01-02T23:40:35+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002132s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.024435s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.001363s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.072511s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002694s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.075291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029821s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.105185s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.106955s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.108645s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.110221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006913s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.112233s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002101s ]
+
+[ 2014-01-02T23:40:56+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.003038s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.001063s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.035794s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000756s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.036613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024551s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.061296s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.062161s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.062998s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.063658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003437s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.064866s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001191s ]
+
+[ 2014-01-02T23:41:39+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002149s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.005267s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.002018s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.047491s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002653s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.050233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028709s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.079013s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.080813s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.082510s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.084028s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009210s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.088416s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002599s ]
+
+[ 2014-01-02T23:41:40+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=hezuo
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002102s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.013386s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001799s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030310s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.045671s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.048307s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.050072s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.051734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008045s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.053853s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002123s ]
+
+[ 2014-01-02T23:41:41+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.002811s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.001327s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.037027s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000770s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.037884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020067s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.058028s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.058918s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.059655s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.060101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002935s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.061094s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2014-01-02T23:41:53+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.007290s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.001212s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.041564s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000729s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.042379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023915s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.066368s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.067041s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.067720s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.068152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002644s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.069141s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2014-01-02T23:41:55+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002577s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010545s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002875s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.013508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052445s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.066048s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.068446s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.070585s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.074919s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011733s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.077948s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002794s ]
+
+[ 2014-01-02T23:41:57+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=guide
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008184s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001427s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027836s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.037618s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.039189s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.041016s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.041627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004928s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.042690s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001630s ]
+
+[ 2014-01-02T23:42:00+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=price
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011663s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001223s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046650s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.059702s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.061616s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.062550s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.063006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008983s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.068849s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001775s ]
+
+[ 2014-01-02T23:42:02+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=hezuo
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002703s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.012864s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001857s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.014809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030743s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.045672s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.047827s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.050716s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.052392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008980s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.054788s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002147s ]
+
+[ 2014-01-02T23:42:04+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.003438s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.004053s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.052212s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002156s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.054468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023111s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.077655s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.079169s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.079925s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.080607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003857s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.081645s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001100s ]
+
+[ 2014-01-02T23:42:06+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.002934s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.001793s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.037590s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001594s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.039273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026143s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.065491s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.066253s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.066951s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.067394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002771s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.068391s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2014-01-02T23:42:09+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.002924s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.001038s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.042507s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002089s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.044686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033942s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.078698s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.079912s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.080641s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.081117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003398s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.082235s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003061s ]
+
+[ 2014-01-02T23:42:11+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.012459s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.001237s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.045519s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001986s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.047695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023961s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.071644s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.072337s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.073159s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.073615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002852s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.074662s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2014-01-02T23:42:13+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=about
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008399s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000731s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021015s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.030304s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.031047s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.031719s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.032148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002736s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.033173s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001112s ]
+
+[ 2014-01-02T23:42:15+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006969s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000704s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024462s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.032294s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.033028s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.033868s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.034394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003130s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.035562s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2014-01-02T23:44:44+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003123s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011540s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001999s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.013635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032430s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.046141s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.047943s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.051156s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.052706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008433s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.054712s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002324s ]
+
+[ 2014-01-02T23:44:46+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002548s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.081132s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.003397s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.123572s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003199s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.126868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035090s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.162081s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.164030s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.165723s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.167453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007501s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.169713s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002874s ]
+
+[ 2014-01-02T23:44:49+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011336s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001182s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028524s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.041220s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.042142s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.042972s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.043503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004424s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.045784s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001153s ]
+
+[ 2014-01-02T23:44:49+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006495s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001198s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026716s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.034573s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.035483s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.036240s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.036676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003008s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.037722s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2014-01-02T23:46:10+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002333s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009275s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002346s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.011725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034055s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.045853s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.047703s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.049440s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.050948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006952s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.052988s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003474s ]
+
+[ 2014-01-02T23:46:15+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=price
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002205s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.012248s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002054s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.014394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053095s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.067567s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.069934s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.071886s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.073481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009426s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.077153s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002138s ]
+
+[ 2014-01-02T23:46:18+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005579s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001558s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041699s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.049007s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.050107s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.051257s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.051864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003805s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.053010s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001533s ]
+
+[ 2014-01-02T23:47:39+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002532s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007383s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000676s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.008142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029416s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.037633s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.038351s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.039051s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.039524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002760s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.040527s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2014-01-02T23:47:41+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005652s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000708s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035032s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.041557s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.042467s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.043221s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.043649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002998s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.044693s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001736s ]
+
+[ 2014-01-02T23:48:20+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002486s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.016944s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005025s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.022071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052117s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.074275s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.077931s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.081985s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.086004s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014097s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.088523s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003607s ]
+
+[ 2014-01-02T23:50:50+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002194s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009983s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002675s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040792s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.053610s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.056985s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.058773s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.060220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008555s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.062308s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002093s ]
+
+[ 2014-01-02T23:51:25+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.009594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009896s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.019186s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006685s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.025981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088721s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.114788s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.117796s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.119876s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.121381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008555s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.123488s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002103s ]
+
+[ 2014-01-02T23:52:05+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008766s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002789s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.011647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032023s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.043750s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046093s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.048253s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.051349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012742s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.056659s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002358s ]
+
+[ 2014-01-02T23:52:08+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003168s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010938s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003135s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.014205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042363s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.056610s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.058594s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.060837s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.062353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007632s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.066374s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002493s ]
+
+[ 2014-01-02T23:53:46+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009091s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000731s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034518s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.044549s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.045722s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.046768s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.047241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003775s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.048474s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2014-01-02T23:53:49+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=reg
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002155s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011412s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001723s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.013222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054670s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.067990s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.069773s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.071911s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.073363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008439s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.076615s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002373s ]
+
+[ 2014-01-02T23:53:53+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.007288s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002134s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035056s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.045151s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046946s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.047822s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.048315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007315s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.052081s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001694s ]
+
+[ 2014-01-02T23:53:56+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=reg
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005690s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001943s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019514s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.027345s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.028626s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.029443s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.029915s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004967s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.032449s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001694s ]
+
+[ 2014-01-02T23:53:58+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008242s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002103s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038083s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.048651s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.052081s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.053028s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.053690s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008177s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.056991s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002191s ]
+
+[ 2014-01-02T23:54:06+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=guide
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006910s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002842s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027797s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.037716s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.044475s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.045253s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.045696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010558s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.048423s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001652s ]
+
+[ 2014-01-02T23:54:46+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005560s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001414s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037745s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.044893s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046307s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.047105s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.047575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007319s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.052359s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001641s ]
+
+[ 2014-01-02T23:55:39+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=guide
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005942s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001315s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027805s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.035232s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.036832s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.037742s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.038231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005699s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.041078s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001952s ]
+
+[ 2014-01-02T23:55:48+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.005697s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001195s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.006976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037961s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.045019s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.046527s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.047284s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.047719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005087s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.050247s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001685s ]
+
+[ 2014-01-02T23:57:40+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=price
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002704s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.017042s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002756s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.019893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060648s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.080628s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.083905s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.087470s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.090304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012793s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.093667s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003563s ]
+
+[ 2014-01-02T23:57:46+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=price
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005880s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.018463s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003296s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.021872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063656s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.085642s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.093038s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.096322s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.097979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016618s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.102558s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003038s ]
+
+[ 2014-01-02T23:57:48+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=guide
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.028212s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002486s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.030788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030314s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.061204s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.062660s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.063459s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.063901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005249s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.066593s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001830s ]
+
+[ 2014-01-02T23:57:53+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003600s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.021782s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001847s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.023721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038620s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.062420s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.063322s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.064109s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.064584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003085s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.065650s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002910s ]
+
+[ 2014-01-02T23:57:59+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.005791s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.002530s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.062671s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004835s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.067629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027314s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.095012s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.096970s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.097794s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.098280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009023s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.104178s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001944s ]
+
+[ 2014-01-02T23:58:02+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001560s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.003481s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.001643s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.048931s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002320s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.051332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043980s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.095416s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.104949s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.106335s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.109756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.041280s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.136926s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006506s ]
+
+[ 2014-01-02T23:58:05+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=about
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001424s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011764s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003457s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.015315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022758s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.038146s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.039459s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.040168s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.040611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005905s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.044229s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001775s ]
+
+[ 2014-01-02T23:58:11+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011198s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000795s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027620s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.039804s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.040650s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.041486s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.041962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003107s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.043080s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2014-01-02T23:58:18+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.013309s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000915s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.014881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025339s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.040278s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.041240s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.042071s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.042558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003140s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.043557s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001246s ]
+
+[ 2014-01-02T23:58:26+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=help
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.009760s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000854s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 138 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 165 行.
+NOTIC: [8] Undefined index:  token F:\phpnow\htdocs\YungowuData\logs\Cache\Home\bfbaede5f8d46f8158cc84b65ab7ec5c.php 第 169 行.
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031385s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.042163s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.042947s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.043675s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.044155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004294s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.046612s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001313s ]
+
+[ 2014-01-02T23:58:47+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003843s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008273s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001650s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.010050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025683s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.035809s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.037163s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.038054s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.038533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005302s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.041304s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002555s ]
+
+[ 2014-01-02T23:58:49+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=about
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010440s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001978s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024689s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.037213s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.038556s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.039247s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.039710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006419s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.043810s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001730s ]
+
+[ 2014-01-02T23:58:52+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=common
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002216s ]
+SQL: SHOW COLUMNS FROM `tp_case` [ RunTime:0.003432s ]
+SQL: SELECT * FROM `tp_case` WHERE status=1  [ RunTime:0.001160s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.038293s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002252s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.040640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022728s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.063446s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.065715s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.066868s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.067434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006606s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.070235s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001692s ]
+
+[ 2014-01-02T23:58:53+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=hezuo
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.011240s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001417s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.013592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024255s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.037099s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.038575s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.039269s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.039703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005601s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.042882s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001845s ]
+
+[ 2014-01-02T23:58:56+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=price
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.008099s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001728s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.009928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045296s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.055331s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.057263s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.058254s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.058811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006220s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.061705s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003310s ]
+
+[ 2014-01-02T23:59:11+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=price
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.006132s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001238s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.007458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044266s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.051804s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.053613s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.054500s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.054996s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007534s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.059501s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001672s ]
+
+[ 2014-01-02T23:59:13+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=price
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.010165s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002098s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.012360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049073s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.061520s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.063505s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.064594s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.065122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009065s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.070750s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003837s ]
+
+[ 2014-01-02T23:59:16+08:00 ] 127.0.0.1 /index.php?g=Home&m=Index&a=guide
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002390s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.012138s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002034s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.014270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036291s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.050639s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.052642s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.054511s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.056088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007464s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.058252s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002159s ]
+
+[ 2014-01-02T23:59:20+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.017570s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002581s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.020234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040533s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.060846s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.062456s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.063223s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.064565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006280s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.067270s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001851s ]
+
+[ 2014-01-02T23:59:35+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+NOTIC: [2] Cannot use a scalar value as an array F:\phpnow\htdocs\YunGoWu\_Core\Lib\Core\View.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:-0.013222s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001657s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:-0.014970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041153s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:-0.056205s ]
+INFO: Run TokenBuild Behavior [ RunTime:-0.058542s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:-0.059660s ]
+INFO: Run ShowRuntime Behavior [ RunTime:-0.060189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009165s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:-0.065526s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002322s ]
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> {yungowu::C('site_title')} {yungowu::C('site_name')}</title>
+<meta name="keywords" content="{yungowu::C('keyword')}" />
+<meta name="description" content="{yungowu::C('content')}" />
+<meta http-equiv="MSThemeCompatible" content="Yes" />
+<script>var SITEURL='';</script>
+<link rel="stylesheet" type="text/css" href="{yungowu::RES}/css/style_2_common.css?BPm" />
+<link href="{yungowu::RES}/css/stylet.css" rel="stylesheet" type="text/css" />
+<script src="{yungowu::RES}/js/common.js" type="text/javascript"></script>
+</head>
+<body oncontextmenu="return false" onselectstart ="return false" id="nv_member" class="pg_CURMODULE" onkeydown="if(event.keyCode==27) return false;">
+<div id="herder" >
+	<div id="top">
+		<img src="{yungowu::RES}/images/logo.png" />
+		<a href="/" class="">首页</a> 
+        <a href="{yungowu::U('Home/Index/guide')}" class="" >产品介绍</a> 
+        <a href="{yungowu::U('Home/Index/price')}" class="" >资费说明</a> 
+        <a href="{yungowu::U('Home/Index/hezuo')}" class="" >渠道合作</a> 
+	    <a href="{yungowu::U('Home/Index/common')}" class="" >成功案例</a>  
+        <a href="{yungowu::U('User/Index/index')}" class="" >管理中心</a> 
+        <a href="{yungowu::U('Home/Index/help')}" class="" >帮助中心</a>
+		<a class="line" ></a>
+        <a href="#" class="a" id="tiduser" onmouseover="ying();" ><span>{yungowu:$Think.session.uname}</span></a>
+		<a href="#" class="a1" id="quit" onclick="Javascript:window.open('{yungowu::U('System/Admin/logout')}')" onLoad=setTimeout("abc.style.display='none'",5000) >安全退出</a>
+	</div>
+</div>
+<div id="aaa"></div>
+
+

@@ -1,0 +1,296 @@
+<include file="Public:head"/>
+<link rel="stylesheet" href="{yungowu::STATICS}/kindeditor/themes/default/default.css" />
+<link rel="stylesheet" href="{yungowu::STATICS}/kindeditor/plugins/code/prettify.css" />
+<script src="{yungowu::STATICS}/kindeditor/kindeditor.js" type="text/javascript"></script>
+<script src="{yungowu::STATICS}/kindeditor/lang/zh_CN.js" type="text/javascript"></script>
+<script src="{yungowu::STATICS}/kindeditor/plugins/code/prettify.js" type="text/javascript"></script>
+<script src="{yungowu::RES}/js/date/WdatePicker.js"></script>
+<script src="{yungowu::C('site_url')}/tpl/static/artDialog/jquery.artDialog.js?skin=default"></script>
+<script src="{yungowu::C('site_url')}/tpl/static/artDialog/plugins/iframeTools.js"></script>
+<script>
+
+var editor;
+KindEditor.ready(function(K) {
+editor = K.create('#copyright', {
+resizeType : 1,
+allowPreviewEmoticons : false,
+allowImageUpload : true,
+
+items : [
+'source','undo','clearhtml','hr','fontsize','forecolor','hilitecolor',
+'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
+'insertunorderedlist', '|', 'emoticons', 'image','link', 'unlink','baidumap','lineheight','table','anchor','preview','print','template','code','cut']
+});
+
+});
+</script>
+
+<div class="content">
+
+<div class="cLineB">
+
+  <h4>微喜帖配置 </h4><a href="javascript:history.go(-1);" class="right btnGrayS vm" style="margin-top:-27px">返回</a>
+
+ </div>
+
+         
+
+    <div class="msgWrap bgfc">
+
+	  <form class="form" method="post" action="" target="_top" enctype="multipart/form-data">	 
+
+		<table class="userinfoArea" style=" margin:0;" border="0" cellspacing="0" cellpadding="0" width="100%">
+
+			<tbody>
+
+				<tr>
+
+				  <th valign="top"><span class="red">*</span>关键词：</th>
+
+					<td>
+
+						<input type="hidden" class="px" value="1" name="type" style="width:400px" >
+
+						<input type="input" class="px" id="keyword" value="<if condition="$marrycard['keyword'] eq ''">微喜帖<else/>{yungowu:$marrycard.keyword}</if>" name="keyword" style="width:400px" ><br />
+
+						<span class="red">只能写一个关键词</span>，用户输入此关键词将会触发此活动。
+
+					</td>
+
+				</tr>
+
+				<tr>
+
+					<th width="120"><span class="red">*</span>回复标题：</th>
+
+					<td><input type="text" name="title" value="{yungowu:$marrycard.title}" class="px" style="width:550px;"></td>
+
+				</tr>
+
+				<tr>
+
+					<th width="120"><span class="red">*</span>内容介绍：</th>
+
+					<td><textarea style="width:560px;height:75px" name="info" id="info" class="px">{yungowu:$marrycard.info}</textarea><br/>最多填写120个字</td>
+
+				</tr>
+
+				<tr>
+
+					<th><span class="red">*</span>回复图片：</th>
+
+					<td><input type="text" name="picurl" id="picurl" value="{yungowu:$marrycard.picurl}" class="px" style="width:450px;"> <script src="{yungowu::C('site_url')}/tpl/static/upyun.js"></script><a href="###" onclick="upyunPicUpload('picurl',1500,1000,'{yungowu:$token}')" class="a_upload">上传</a> <a href="###" onclick="viewImg('picurl')">预览</a><br/> </td>
+
+				</tr>
+
+
+
+				<tr>
+
+					<th><span class="red">*</span>想说的话：</th>
+
+					<td><textarea style="width:560px;height:75px" name="s" id="contents" class="px">{yungowu:$marrycard.s}</textarea><br/> 最多填写120个字</td>
+
+				</tr>
+
+				
+
+				<tr>
+
+					<th><span class="red">*</span>新郎：</th>
+
+					<td>
+
+						<input type="input" class="px w550" name="husband" id="partytime" value="<if condition="$marrycard['husband'] neq ''">{yungowu:$marrycard.husband}</if>" />
+
+					</td>
+
+				</tr>
+
+				
+
+				<tr>
+
+					<th><span class="red">*</span>新娘：</th>
+
+					<td>
+
+						<input type="input" class="px w550" name="wife" id="wife" value="<if condition="$marrycard['wife'] neq ''">{yungowu:$marrycard.wife}</if>" />
+
+					</td>
+
+				</tr>
+
+
+
+				<tr>
+
+					<th><span class="red">*</span>宴会时间：</th>
+
+					<td>
+
+						<input type="input" class="px w550" id="partytime" value="<if condition="$marrycard['partytime'] neq ''">{yungowu:$marrycard.partytime|date="Y-m-d H:i:s",###}</if>" onClick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm'})" name="partytime" /><br/> 请填写宴会时间
+
+					</td>
+
+				</tr>
+
+				
+
+				<tr>
+
+					<th><span class="red">*</span>活动时间：</th>
+
+					<td><input type="input" class="px" id="startdate" value="<if condition="$marrycard['startdate'] neq ''">{yungowu:$marrycard.startdate|date="Y-m-d",###}</if>" onClick="WdatePicker()" name="startdate" />                
+
+						到
+
+						<input type="input" class="px" id="enddate" value="<if condition="$marrycard['enddate'] neq ''">{yungowu:$marrycard.enddate|date="Y-m-d",###}</if>" name="enddate"  onClick="WdatePicker()"  /> 
+
+					</td>
+
+				</tr>
+
+
+
+				<tr>
+
+					<th><span class="red">*</span>宴会地址：</th>
+
+					<td><input type="text" name="partyaddress" value="{yungowu:$marrycard.partyaddress}" class="px" style="width:550px;"><br/> 请填写宴会地址</td>
+
+				</tr>
+
+
+
+				<tr>
+
+					<th><span class="red">*</span>接待电话：</th>
+
+					<td><input type="text" name="tel" value="{yungowu:$marrycard.tel}" class="px" style="width:550px;"><br/> 请填写宴会电话</td>
+
+				</tr>
+
+
+
+				<tr>
+
+					<th>婚礼视频：</th>
+
+					<td><input type="text" name="video" value="{yungowu:$marrycard.video}" class="px" style="width:550px;"><p>支持优酷视频地址如;http://v.youku.com/v_show/id_XNjI4ODk5NDQ4.html <br /> 腾讯fash视频地址：如http://static.video.qq.com/TPout.swf?vid=v0119s27wd5&auto=0 <br /> 也支持mp4和ogg 格式地址 http://www.w3school.com.cn/example/html5/mov_bbb.mp4 </p>
+                                   
+</td>
+
+				</tr>
+
+				
+
+				<tr>
+
+					<th>封面合照：</th>
+
+					<td><input type="text" name="thumbpic" id="thumbpic" value="{yungowu:$marrycard.thumbpic}" class="px" style="width:480px;"> <script src="{yungowu::C('site_url')}/tpl/static/upyun.js"></script><a href="###" onclick="upyunPicUpload('thumbpic',1500,1000,'{yungowu:$token}')" class="a_upload">上传</a> <a href="###" onclick="viewImg('thumbpic')">预览</a><br/></td>
+
+				</tr>
+
+				
+
+				<tr>
+
+					<th>背景音乐：</th>
+
+					<td><input type="text" name="bgmusic" value="{yungowu:$marrycard.bgmusic}" class="px w550"><br/> 请填写背景音乐外链地址</td>
+
+				</tr>
+
+
+
+				<tr>
+
+					<th>照片一：</th>
+
+					<td><input type="text" name="photo_1" id="photo_1" value="{yungowu:$marrycard.photo_1}" class="px" style="width:480px;"><script src="{yungowu::C('site_url')}/tpl/static/upyun.js"></script><a href="###" onclick="upyunPicUpload('photo_1',1500,1000,'{yungowu:$token}')" class="a_upload">上传</a> <a href="###" onclick="viewImg('photo_1')">预览</a><br/></td>
+
+				</tr>
+
+
+
+
+
+				<tr>
+
+					<th>照片二：</th>
+
+					<td><input type="text" name="photo_2" id="photo_2" value="{yungowu:$marrycard.photo_2}" class="px" style="width:480px;"><script src="{yungowu::C('site_url')}/tpl/static/upyun.js"></script><a href="###" onclick="upyunPicUpload('photo_2',1500,1000,'{yungowu:$token}')" class="a_upload">上传</a> <a href="###" onclick="viewImg('photo_2')">预览</a><br/></td>
+
+				</tr>
+
+				
+
+				<tr>
+
+					<th>照片三：</th>
+
+					<td><input type="text" name="photo_3"  id="photo_3" value="{yungowu:$marrycard.photo_3}" class="px" style="width:480px;"><script src="{yungowu::C('site_url')}/tpl/static/upyun.js"></script><a href="###" onclick="upyunPicUpload('photo_3',1500,1000,'{yungowu:$token}')" class="a_upload">上传</a> <a href="###" onclick="viewImg('photo_3')">预览</a><br/></td>
+
+				</tr>
+
+				
+
+				<tr>
+
+					<th>照片四：</th>
+
+					<td><input type="text" name="photo_4"  id="photo_4" value="{yungowu:$marrycard.photo_4}" class="px" style="width:480px;"><script src="{yungowu::C('site_url')}/tpl/static/upyun.js"></script><a href="###" onclick="upyunPicUpload('photo_4',1500,1000,'{yungowu:$token}')" class="a_upload">上传</a> <a href="###" onclick="viewImg('photo_4')">预览</a><br/></td>
+
+				</tr>
+
+				
+
+				<tr>
+
+					<th>照片五：</th>
+
+					<td><input type="text" name="photo_5"  id="photo_5" value="{yungowu:$marrycard.photo_5}" class="px" style="width:480px;"><script src="{yungowu::C('site_url')}/tpl/static/upyun.js"></script><a href="###" onclick="upyunPicUpload('photo_5',1500,1000,'{yungowu:$token}')" class="a_upload">上传</a> <a href="###" onclick="viewImg('photo_5')">预览</a><br/></td>
+
+				</tr>
+<tr>
+<th>版权信息:</th>
+
+<td>
+
+
+<textarea name="copyright" id="copyright"  rows="5" style="width:590px;height:160px" >{yungowu:$marrycard.copyright}</textarea></td>
+
+</tr>
+
+
+				<th>&nbsp;</th>
+
+					<td>
+
+						<button type="submit" name="button" class="btnGreen">保存</button>
+
+						<a href="javascript:history.go(-1);" class="btnGray vm">取消</a>
+
+					</td>
+
+				</tr>
+
+			</tbody>
+
+		</table>
+
+	</form>
+
+  </div> 
+
+ 
+
+  
+
+        </div>
+
+         <div class="clr"></div>
+
+<include file="Public:footer"/>

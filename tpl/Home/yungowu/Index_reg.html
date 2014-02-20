@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>注册账号-{yungowu::C('site_title')}</title>
+		<meta name="keywords" content="{yungowu::C('keyword')}" />
+        <meta name="description" content="{yungowu::C('content')}" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link href="{yungowu::RES}/css/reg.css" rel="stylesheet" media="screen" type="text/css" />
+        <script type="text/javascript" src="{yungowu::RES}/js/jquery.js"></script>
+        <script type="text/javascript">
+            var passwordok = false;
+            var emailok = false;
+            function checkSubmit(){
+                if(emailok == false){
+                    alert("邮箱格式不正确！");
+                    return false;
+                }else if(passwordok == false){
+                    alert("密码错误！");
+                    return false;
+                }else{
+                    return true;
+                }                
+            }
+            
+            $(document).ready(function(){
+                $("#password").keyup(function(){
+                    $("#password2").val("");
+                });
+                $("#password2").blur(function(){
+                    var data2 = $("#password2").val();
+                    var data1 = $("#password").val();
+                    if(data1 != data2){
+                        $("#passwordshow").html('<span class="red">两次密码不相同！</span>');
+                    }else{
+                        $("#passwordshow").html('<font color="#008800">√</font>');
+                        passwordok = true;
+                    }
+                });
+                $("#userid").blur(function(){
+                    var data = $("#userid").val();
+                    var myreg = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
+                    if(!myreg.test(data)){
+                        $("#emailshow").html('<span class="red">邮箱格式不正确！</span>');
+                    }else{
+                        $.ajax({
+                            url: "login.php",
+                            type: "POST",
+                            dataType: "script",
+                            data: {
+                                dopost:"test",
+                                userid:data
+                            },success: function(data){                                
+                                if(back == 0){
+                                    $("#emailshow").html('<font color="#008800">√</font>');
+                                    emailok = true;
+                                }else{
+                                    $("#emailshow").html('<span class="red">邮箱已经被注册，请更换其它邮箱！</span>');
+                                }
+                            }
+                        });
+                    }
+                });
+            });
+            
+        </script>
+		<include file="Public:header"/>
+    </head>
+    <body>
+	<div id="header">
+        </div>
+        <div id="regmain" style="margin-bottom: 20px;">
+            <div class="regtitle">
+                <div class="nei">
+                    <div class="title">立即注册</div>
+                    <div class="bak"><a href="{yungowu::U('Index/login')}">已有账号，这里登陆</a></div>
+                </div>
+            </div>
+            <form action="{yungowu::U('Users/checkreg')}" method="post" class="login">
+                <input type="hidden" name="dopost" value="save" />
+                <div class="regtext">
+                    <table width="100%">  
+                        <tr>
+                            <td width="20%" align="right"><b>邮箱：</b></td>
+                            <td width="35%"><div class="inputbox"><input class="text" type="text" name="email" value="请输入电子邮箱" onClick="if(this.value=='请输入电子邮箱'){this.value=''}" onBlur="if(this.value==''){this.value='请输入电子邮箱'}"></div></td>
+                            <td width="45%" align="left" id="emailshow"></td>
+                        </tr>
+                        <tr>
+                            <td align="right"><b>昵称：</b></td>
+                            <td><div class="inputbox"><input class="text" required="" value="请输入用户名" onClick="if(this.value=='请输入用户名'){this.value=''}" onBlur="if(this.value==''){this.value='请输入用户名'}" type="text" name="username"></div></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td align="right"><b>密码：</b></td>
+                            <td><div class="inputbox">
+                              <input class="text" type="password" name="password">
+                            </div></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td align="right"><b>确认密码：</b></td>
+                            <td><div class="inputbox">
+                              <input class="text" type="password" name="repassword">
+                            </div></td>
+                            <td id="passwordshow"></td>
+                        </tr>
+                        <tr>
+                            <td align="right"><b>联系电话：</b></td>
+                            <td><div class="inputbox"><input type="text" name="phone"  /></div></td>
+                            <td><span class="info">（选填）</span></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="regend">
+                    <div class="nei">
+                        <input type="submit" class="backbutton" value="立即注册" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
