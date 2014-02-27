@@ -36,6 +36,12 @@ public/files/*
 config/log4r.yml
 *.zip
 nohup.out
+
 YungowuData/logs/
 Uploads
 install/lock
+YungowuData/logs/Data/case.php
+YungowuData/conf/Admin/config.php
+YungowuData/conf/alipay.php
+YungowuData/conf/db.php
+YungowuData/conf/info.php

@@ -1,0 +1,17 @@
+<?php 
+return array (
+  'site_name' => '微信营销',
+  'site_title' => '微信营销平台',
+  'site_url' => 'http://weixin.pe',
+  'site_my' => 'http://weixin.pe',
+  'ischeckuser' => 'true',
+  'ipc' => '京ICP备11037495号',
+  'site_qq' => '510045240',
+  'site_hm' => '15210014144',
+  'baidu_map_api' => '3b0qGwO1RbDxvnWWqlS5sd0S',
+  'site_email' => 'shensiwei@sina.com',
+  'keyword' => '微信公共平台营销中心',
+  'content' => '微信公共平台营销中心',
+  'counts' => '',
+  'copyright' => 'weixin.pe 版权所有',
+);
